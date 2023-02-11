@@ -20,4 +20,21 @@ body {
 /***** the values for the media queries are found in the variables partial *****/
 .drop-down-menu {
   display: flex;
+  flex-direction: column;
+}
+
+button.md-primary {
+  background: #703FCD;
+  border: 0.0625rem solid #703FCD;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  padding: 0.625rem 1rem;
+}
+button.md-secondary {
+  background: #FFFFFF;
+  border: 0.0625rem solid #CFD5DE;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  padding: 0.625rem 1rem;
+  font-weight: 600;
 }
