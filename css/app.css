@@ -16,3 +16,8 @@ body {
   width: 1440px;
   margin: 0 auto;
 }
+
+/***** the values for the media queries are found in the variables partial *****/
+.drop-down-menu {
+  display: flex;
+}
