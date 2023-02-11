@@ -1,0 +1,146 @@
+/***** the values for the media queries are found in the variables partial *****/
+@function px-to-rem($px, $value: 16) {
+    $result: calc($px / $value) * 1rem;
+    @return $result;
+}
+
+@mixin mobile {
+    @media(width <= #{$mobile-width}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin badge-variant($text-color, $bg-color) {
+    color: $text-color;
+    background-color: $bg-color;
+}
+
+@mixin border($size, $color) {
+    border: $size solid $color;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin border-left($size, $color) {
+    border-left: $size solid $color;
+}
+
+@mixin border-right($size, $color) {
+    border-right: $size solid $color;
+}
+
+@mixin border-top($size, $color) {
+    border-top: $size solid $color;
+}
+
+@mixin border-bottom($size, $color) {
+    border-bottom: $size solid $color;
+}
+
+@mixin status() {
+    &.read {
+        background: $clr-light-bg;
+    }
+
+    &.unread {
+        background: $clr-notification-read;
+    }
+}
+
+@mixin flex-direction($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin flex() {
+    display: flex;
+}
+
+@mixin margin-left($value) {
+    margin-left: $value;
+}
+
+@mixin margin-right($value) {
+    margin-right: $value;
+}
+
+@mixin margin-top($value) {
+    margin-top: $value;
+}
+
+@mixin margin-bottom($value) {
+    margin-bottom: $value;
+}
+
+@mixin margin-all($value) {
+    margin: $value;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+}
+
+@mixin font-color($color) {
+    color: $color;
+}
+
+@mixin font-weight($weight) {
+    font-weight: $weight;
+}
+
+@mixin height($height) {
+    height: $height;
+}
+
+@mixin width($width) {
+    width: $width;
+}
+
+@mixin size($width, $height) {
+    width: px-to-rem($width);
+    height: px-to-rem($height);
+}
+
+@mixin flex-center() {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin bg($color) {
+    background: $color;
+}
+
+@mixin unstyled-list() {
+    list-style: none;
+}
+
+@mixin full-width($height) {
+    width: 100%;
+    height: $height;
+}
+
+@mixin font-size($value) {
+    font-size: $value;
+}
+
+@mixin button-variant($bg-color, $border-color, $text-color,  $border-radius: 0) {
+    @include bg($bg-color);
+    @include border(px-to-rem(1), $border-color);
+
+    border-radius: $border-radius;
+
+    @include font-size(px-to-rem(16));
+    
+}
+
+@mixin reset-link() {
+    text-decoration: none;
+}
