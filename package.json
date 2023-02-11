@@ -1,0 +1,25 @@
+{
+  "name": "untitled-components-library",
+  "version": "0.2.1",
+  "description": "collection of components found in the untitled ui kit",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elite-coder-5150/untitled-components-library.git"
+  },
+  "author": "Darrell Parkhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elite-coder-5150/untitled-components-library/issues"
+  },
+  "homepage": "https://github.com/elite-coder-5150/untitled-components-library#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
