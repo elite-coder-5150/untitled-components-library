@@ -1,3 +1,58 @@
 .drop-down-menu {
     @include flex();
+    flex-direction: column;
+    border: 1px solid $clr-base-border;
+    width: 240px;
+    border-radius: px-to-rem(8);
+
+    header {
+        padding: 12px 16px;
+        display: flex;
+        border-bottom: 1px solid $clr-base-border;
+    }
+    ul {
+        @include unstyled-list();
+        @include flex();
+
+        flex-direction: column;
+        border-bottom: 1px solid $clr-base-border;
+
+        padding: 10px 0;
+
+        &.last {
+            border-bottom: 0 solid transparent;
+        }
+        
+        li {
+            @include flex();
+
+            padding: 9px 20px;
+        }
+
+        a {
+            @include reset-link();
+            @include font-color($clr-drop-down-link-text);
+
+            text-transform: capitalize;
+            font-size: px-to-rem(14);
+            margin-left: 10px;
+        }
+    }
+
+    .card-footer {
+        // padding: 10px 0;
+        border-bottom: 0;
+    }
+}
+
+.ddm {
+    button {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .drop-down-menu {
+        margin-left: 120px;
+        margin-top: 20px;
+    }
 }
