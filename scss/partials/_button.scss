@@ -1,0 +1,16 @@
+button {
+    &.md-primary {
+        @include button-variant($clr-primary-700, $clr-primary-700, $clr-light-text, px-to-rem(8));
+        @include font-size(px-to-rem(14));
+
+        padding: px-to-rem(10) px-to-rem(16);
+    }
+
+    &.md-secondary {
+        @include button-variant($clr-light-bg, $clr-secondary-btn-border, $clr-secondary-btn-text, px-to-rem(8));
+        @include font-size(px-to-rem(14));
+
+        padding: px-to-rem(10) px-to-rem(16);
+        font-weight: 600;
+    }
+}
