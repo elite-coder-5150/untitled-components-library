@@ -22,10 +22,9 @@
         &.last {
             border-bottom: 0 solid transparent;
         }
-        
+
         li {
             @include flex();
-
             padding: 9px 20px;
         }
 
