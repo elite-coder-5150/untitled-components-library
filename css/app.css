@@ -38,3 +38,7 @@ button.md-secondary {
   padding: 0.625rem 1rem;
   font-weight: 600;
 }
+
+input[type=checkbox] {
+  appearance: none;
+}
