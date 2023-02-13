@@ -1,0 +1,10 @@
+.settings-card {
+    header {
+        @include flex();
+
+        .logo {
+            @include flex();
+            
+        }
+    }
+}
