@@ -24,6 +24,7 @@ body {
 }
 
 /***** the values for the media queries are found in the variables partial *****/
+/***** 01 - mixins and functions *****/
 .drop-down-menu {
   display: flex;
   flex-direction: column;
@@ -120,7 +121,9 @@ input[type=checkbox] {
 .settings-sidebar {
   display: flex;
   background: #fff;
+  border-right: 1px solid #EAECF0;
   flex-direction: column;
+  width: 312px;
 }
 .settings-sidebar .settings-sidebar-header .logo {
   display: flex;
@@ -175,6 +178,28 @@ input[type=checkbox] {
   margin-left: 10px;
   font-weight: 600;
   color: #314056;
+}
+
+.sidebar-footer {
+  display: flex;
+  width: 312px;
+  padding: 24px;
+  border-top: 1px solid #EAECF0;
+  margin-top: 20px;
+}
+.sidebar-footer .user-info {
+  margin-left: 10px;
+}
+.sidebar-footer .user-info .username {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.sidebar-footer .user-info .email {
+  font-size: 14px;
+}
+.sidebar-footer .icon {
+  margin-left: auto;
+  margin-top: 10px;
 }
 
 .user-icon {
