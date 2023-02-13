@@ -72,15 +72,17 @@
         }
     }
 
-    .sidebar-footer {
-        @include flex();
-        width: 312px;
-        .profile {
-            // @include flex();
-        }
-
-        .user-info {
-            // @include flex();
-        }
-    }
+    
 }
+
+.sidebar-footer {
+    @include flex();
+    width: 312px;
+    .profile {
+        // @include flex();
+    }
+
+    .user-info {
+        // @include flex();
+    }
+} 
