@@ -116,6 +116,10 @@ input[type=checkbox] {
   color: #703FCD;
 }
 
+.settings-sidebar {
+  display: flex;
+}
+
 .user-icon {
   background: url("../img/icons/user-icon.png") no-repeat;
   width: 1rem;
