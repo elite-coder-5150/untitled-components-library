@@ -50,3 +50,41 @@
     background: url('../img/icons/log-out-icon.png') no-repeat;
     @include size(16, 16);
 }
+
+.search-icon-one {
+    background: url('../img/search-lg-icon.png') no-repeat;
+    @include size(20, 20);
+}
+
+.home-light-icon {
+    background: url('../img/home-outline-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.dashboard-light-icon {
+    background: url('../img/dashboard-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.projects-light-icon {
+    background: url('../img/projects-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.tasks-light-icon {
+    background: url('../img/tasks-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.reporting-light-icon {
+    background: url('../img/reporting-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.user-light-icon {
+    background: url('../img/user-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.support-light-icon {
+    background: url('../img/support-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+.settings-light-icon {
+    background: url('../img/settings-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
