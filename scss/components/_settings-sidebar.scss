@@ -1,0 +1,86 @@
+.settings-sidebar {
+    @include flex();
+    background: $clr-light-bg;
+    border-right: 1px solid $clr-base-border;
+    flex-direction: column;
+    width: 312px;
+    .settings-sidebar-header {
+        .logo {
+            @include flex();
+
+            .logo-text {
+                margin-left: 10px;
+                line-height: 38px;
+            }
+        }
+    }
+
+    .search-form {
+        margin-top: 34px;
+        padding: 8px 12px;
+
+        .input-group {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid $clr-base-border;
+            width: 264px;
+            padding: 10px 14px;
+            border-radius: px-to-rem(8);
+
+            input[type="search"] {
+                border-color: transparent;
+                text-indent: 15px;
+                line-height: 20px;
+
+                &::-webkit-input-placeholder {
+                    @include font-color($clr-input-placeholder)
+                }
+            }
+        }
+    }
+
+    ul {
+        @include flex();
+        @include unstyled-list();
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 16px;
+        li {
+            display: flex;
+            padding: 8px 12px;
+        }
+        
+        &.primary {
+            margin-top: 32px;
+        }
+        &.secondary {
+            margin-top: 150px;
+        }
+
+        a {
+            @include reset-link();
+            font-size: px-to-rem(14);
+            
+            line-height: 24px;
+            text-transform: capitalize;
+            margin-left: 10px;
+            font-weight: 600;
+            
+            @include font-color($clr-sidebar-link);
+        }
+    }
+
+    .sidebar-footer {
+        @include flex();
+        width: 312px;
+        .profile {
+            // @include flex();
+        }
+
+        .user-info {
+            // @include flex();
+        }
+    }
+}
