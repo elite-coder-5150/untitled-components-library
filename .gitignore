@@ -2,3 +2,4 @@ config.codekit3
 .VSCodeCounter
 node_modules
 docs/*.html
+.vscode
