@@ -1,0 +1,33 @@
+/***** 01 - tabs component *****/
+.tabs {
+    @include flex();
+    @include unstyled-list();
+
+    border-bottom: 1px solid $clr-base-border;
+    max-width: 1189px;
+
+    .tab {
+        margin-right: 16px;
+        padding-bottom: 12px;
+
+        &.active {
+            border-bottom: 1px solid $clr-primary-700;
+        }
+    }
+
+    a {
+        @include reset-link();
+        @include font-color($clr-tabs-link-text);
+
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: px-to-rem(14);
+        padding-bottom: 12px;
+
+        &.active,
+        &:hover {
+            @include font-color($clr-primary-700);
+        }
+
+    }
+}
