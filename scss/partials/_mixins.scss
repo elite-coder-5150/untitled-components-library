@@ -1,4 +1,5 @@
 /***** the values for the media queries are found in the variables partial *****/
+/***** 01 - mixins and functions *****/
 @function px-to-rem($px, $value: 16) {
     $result: calc($px / $value) * 1rem;
     @return $result;
