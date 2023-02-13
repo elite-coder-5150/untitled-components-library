@@ -78,11 +78,25 @@
 .sidebar-footer {
     @include flex();
     width: 312px;
-    .profile {
-        // @include flex();
-    }
+    padding: 24px;
+    border-top: 1px solid $clr-base-border;
+    margin-top: 20px;
 
     .user-info {
-        // @include flex();
+        margin-left: 10px;
+
+        .username {
+            font-size: 14px;
+            text-transform: capitalize;
+        }
+
+        .email {
+            font-size: 14px;
+        }
+    }
+
+    .icon {
+        margin-left: auto;
+        margin-top: 10px;
     }
 } 
