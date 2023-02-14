@@ -1,5 +1,9 @@
 /***** 07 - settings card *****/
 .settings-card {
+    @include flex();
+    flex-direction: row;
+    background: #fff;;
+    width: 1440px;
     header {
         @include flex();
 
@@ -8,4 +12,13 @@
             
         }
     }
+
+    .main-content {
+        max-width: 1128px;
+        background-color: #fff;
+        height: 300px;
+        float: left;
+    }
+    
 }
+
