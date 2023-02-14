@@ -15,7 +15,7 @@ body {
 }
 .container .inner-container {
   width: 1440px;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .row {
@@ -124,6 +124,10 @@ input[type=checkbox] {
   border-right: 1px solid #EAECF0;
   flex-direction: column;
   width: 312px;
+  float: left;
+}
+.settings-sidebar .settings-sidebar-header {
+  padding: 24px;
 }
 .settings-sidebar .settings-sidebar-header .logo {
   display: flex;
@@ -133,7 +137,6 @@ input[type=checkbox] {
   line-height: 38px;
 }
 .settings-sidebar .search-form {
-  margin-top: 34px;
   padding: 8px 12px;
 }
 .settings-sidebar .search-form .input-group {
