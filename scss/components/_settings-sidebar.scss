@@ -4,7 +4,9 @@
     border-right: 1px solid $clr-base-border;
     flex-direction: column;
     width: 312px;
+    float: left;
     .settings-sidebar-header {
+        padding: 24px;
         .logo {
             @include flex();
 
@@ -16,7 +18,7 @@
     }
 
     .search-form {
-        margin-top: 34px;
+        // margin-top: 34px;
         padding: 8px 12px;
 
         .input-group {
