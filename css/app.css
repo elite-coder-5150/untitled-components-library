@@ -95,7 +95,8 @@ input[type=checkbox] {
 .bottom {
   background: #192A3A;
   width: 100%;
-  padding-top: 64px;
+  box-sizing: border-box;
+  padding-top: 44px;
   color: #CFD5DE;
 }
 .bottom .about-footer {
@@ -104,9 +105,17 @@ input[type=checkbox] {
 .bottom .about-footer ul {
   list-style: none;
 }
+.bottom .about-footer li {
+  margin-bottom: 12px;
+}
 .bottom .about-footer a {
   color: #CFD5DE;
   text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+.bottom .about-footer .new-badge {
+  font-size: 0.75rem;
 }
 .bottom .col {
   width: 171px;
@@ -117,6 +126,7 @@ input[type=checkbox] {
   text-transform: capitalize;
   font-size: 0.875rem;
   font-weight: 600;
+  margin-bottom: 16px;
 }
 
 /***** 01 - tabs component *****/
@@ -246,6 +256,9 @@ input[type=checkbox] {
   text-align: center;
   margin-top: 20px;
   color: #445469;
+}
+.hiring span {
+  font-size: 12px;
 }
 .hiring .button-group {
   display: flex;
