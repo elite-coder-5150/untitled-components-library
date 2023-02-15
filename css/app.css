@@ -92,6 +92,33 @@ input[type=checkbox] {
   appearance: none;
 }
 
+.bottom {
+  background: #192A3A;
+  width: 100%;
+  padding-top: 64px;
+  color: #CFD5DE;
+}
+.bottom .about-footer {
+  display: flex;
+}
+.bottom .about-footer ul {
+  list-style: none;
+}
+.bottom .about-footer a {
+  color: #CFD5DE;
+  text-decoration: none;
+}
+.bottom .col {
+  width: 171px;
+  height: 240px;
+  margin-right: 32px;
+}
+.bottom .col-title {
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
 /***** 01 - tabs component *****/
 .tabs {
   display: flex;
@@ -203,6 +230,33 @@ input[type=checkbox] {
 .sidebar-footer .icon {
   margin-left: auto;
   margin-top: 10px;
+}
+
+.hiring {
+  background: #F9FAFB;
+}
+.hiring .supportive-text {
+  color: #0D1829;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+.hiring .large-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #445469;
+}
+.hiring .button-group {
+  display: flex;
+  justify-content: center;
+}
+.hiring .button-group button.lg-secondary {
+  background: #fff;
+  border: 0.0625rem solid #EAECF0;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-transform: capitalize;
 }
 
 .user-icon {
