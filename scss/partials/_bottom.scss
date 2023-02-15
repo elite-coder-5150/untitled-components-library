@@ -1,0 +1,45 @@
+.bottom {
+    background: $clr-bottom-bg;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 44px;
+    
+    @include font-color($clr-dark-footer-text);
+
+    .about-footer {
+        display: flex;
+
+        ul {
+            @include unstyled-list();
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        a {
+            @include font-color($clr-dark-footer-text);
+            @include reset-link();
+
+            text-transform: capitalize;
+            font-size: px-to-rem(14);
+        }
+
+        .new-badge {
+            font-size: px-to-rem(12)
+        }
+    }
+
+    .col {
+        width: 171px;
+        height: 240px;
+        // border: 1px solid $clr-base-border;
+        margin-right: 32px;
+    }
+    .col-title {
+        text-transform: capitalize;
+        font-size: px-to-rem(14);
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+}
