@@ -242,34 +242,71 @@ input[type=checkbox] {
   margin-top: 10px;
 }
 
-.hiring {
+.about-page-two .about-us {
+  display: flex;
+}
+.about-page-two .testinmonials {
+  display: flex;
+}
+.about-page-two .hiring {
   background: #F9FAFB;
 }
-.hiring .supportive-text {
+.about-page-two .hiring .supportive-text {
   color: #0D1829;
   font-size: 36px;
   text-align: center;
   font-weight: 600;
 }
-.hiring .large-text {
+.about-page-two .hiring .large-text {
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
   color: #445469;
 }
-.hiring span {
+.about-page-two .hiring span {
   font-size: 12px;
 }
-.hiring .button-group {
+.about-page-two .hiring .button-group {
   display: flex;
   justify-content: center;
 }
-.hiring .button-group button.lg-secondary {
+.about-page-two .hiring .button-group button.lg-secondary {
   background: #fff;
   border: 0.0625rem solid #EAECF0;
   border-radius: 8px;
   font-size: 1rem;
   text-transform: capitalize;
+}
+
+body.about-page-three .about-footer {
+  display: flex;
+  background: #192A3A;
+}
+body.about-page-three .about-footer ul {
+  list-style: none;
+}
+body.about-page-three .about-footer li {
+  margin-bottom: 12px;
+}
+body.about-page-three .about-footer a {
+  color: #CFD5DE;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+body.about-page-three .about-footer .new-badge {
+  font-size: 0.75rem;
+}
+body.about-page-three .col {
+  width: 171px;
+  height: 240px;
+  margin-right: 32px;
+}
+body.about-page-three .col-title {
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .user-icon {
