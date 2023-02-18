@@ -88,3 +88,8 @@
     background: url('../img/settings-light-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.help-icon {
+    background: url('../img/inputs/help-icon.png') no-repeat;
+    @include size(16, 16);
+}
