@@ -1,0 +1,11 @@
+.input-fields-card {
+    background: $clr-light-bg;
+
+    label { display: block; }
+    .col {
+        display: flex;
+        width: 320px;
+        height: 40px;
+        border: 1px solid $clr-base-border;
+    }
+}
