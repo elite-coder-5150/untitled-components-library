@@ -311,15 +311,56 @@ body.about-page-three .col-title {
 
 .input-fields-card {
   background: #fff;
+  padding: 16px;
 }
-.input-fields-card label {
-  display: block;
-}
-.input-fields-card .col {
+.input-fields-card .input-bg {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
   width: 320px;
   height: 40px;
   border: 1px solid #EAECF0;
+}
+.input-fields-card .input-bg input[type=email] {
+  width: 90%;
+  border: 0;
+  font-family: inherit;
+  text-indent: 15px;
+}
+.input-fields-card .input-bg input[type=email]::-webkit-input-placeholder {
+  color: #afb6c6;
+  font-weight: 600;
+}
+.input-fields-card .input-bg input[type=email].user-email {
+  text-indent: 0;
+}
+.input-fields-card .input-bg .icon {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.input-fields-card .input-bg .icon .email-icon {
+  margin-top: -4px;
+  margin-left: 10px;
+}
+.input-fields-card .input-bg .icon .master-card-icon {
+  margin-top: -4px;
+  margin-left: 10px;
+}
+.input-fields-card .users {
+  list-style: none;
+  display: flex;
+}
+.input-fields-card .users .user {
+  display: flex;
+}
+
+label {
+  display: block;
+  font-size: 0.875rem;
+  color: #314056;
+  font-weight: 600;
+  margin-bottom: 6px;
 }
 
 .user-icon {
@@ -446,4 +487,16 @@ body.about-page-three .col-title {
   background: url("../img/inputs/help-icon.png") no-repeat;
   width: 1rem;
   height: 1rem;
+}
+
+.email-icon {
+  background: url("../img/inputs/email-icon.png") no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.master-card-icon {
+  background: url("../img/inputs/master-card-icon.png") no-repeat;
+  width: 2.125rem;
+  height: 1.5rem;
 }
