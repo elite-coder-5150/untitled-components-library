@@ -309,6 +309,19 @@ body.about-page-three .col-title {
   margin-bottom: 16px;
 }
 
+.input-fields-card {
+  background: #fff;
+}
+.input-fields-card label {
+  display: block;
+}
+.input-fields-card .col {
+  display: flex;
+  width: 320px;
+  height: 40px;
+  border: 1px solid #EAECF0;
+}
+
 .user-icon {
   background: url("../img/icons/user-icon.png") no-repeat;
   width: 1rem;
@@ -427,4 +440,10 @@ body.about-page-three .col-title {
   background: url("../img/settings-light-icon.png") no-repeat;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.help-icon {
+  background: url("../img/inputs/help-icon.png") no-repeat;
+  width: 1rem;
+  height: 1rem;
 }
