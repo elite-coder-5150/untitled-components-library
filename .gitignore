@@ -3,3 +3,4 @@ config.codekit3
 node_modules
 docs/*.html
 .vscode
+README.HTML
