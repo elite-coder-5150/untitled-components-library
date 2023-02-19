@@ -93,3 +93,18 @@
     background: url('../img/inputs/help-icon.png') no-repeat;
     @include size(16, 16);
 }
+
+.email-icon {
+    background: url('../img/inputs/email-icon.png') no-repeat;
+    @include size(20, 20);
+}
+
+.master-card-icon {
+    background: url('../img/inputs/master-card-icon.png') no-repeat;
+    @include size(34, 24);
+}
+
+.small-close-icon {
+    background: url('../img/inputs/close-icon.png') no-repeat;
+    @include size(16, 16);
+}
