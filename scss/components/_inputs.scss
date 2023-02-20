@@ -3,6 +3,7 @@
 
     padding: 16px;
 
+    
     .input-bg {
         display: flex;
         flex-direction: row;
@@ -73,12 +74,22 @@
     }
 }
 
-label { 
-    display: block; 
-    font-size: px-to-rem(14);
 
-    @include font-color($clr-label-text);
 
-    font-weight: 600;
-    margin-bottom: 6px;
+.input-control {
+    svg {
+        path {
+            color: red;
+        }
+    }
+
+    label { 
+        display: block; 
+        font-size: px-to-rem(14);
+    
+        @include font-color($clr-label-text);
+    
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
 }

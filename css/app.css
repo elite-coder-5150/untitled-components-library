@@ -375,12 +375,13 @@ body.about-page-three .col-title {
 .input-control svg path {
   color: red;
 }
-.input-control label {
+
+label {
   display: block;
   font-size: 0.875rem;
   color: #314056;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .user-icon {
