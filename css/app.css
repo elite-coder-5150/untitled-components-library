@@ -21,6 +21,7 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  column-gap: 32px;
 }
 
 /***** the values for the media queries are found in the variables partial *****/
@@ -378,6 +379,40 @@ label {
   color: #314056;
   font-weight: 600;
   margin-bottom: 8px;
+}
+
+.data-access header {
+  flex-wrap: nowrap;
+}
+.data-access header .logo {
+  display: flex;
+}
+.data-access header .logo .logo-text {
+  margin-left: 10px;
+  line-height: 38px;
+}
+.data-access header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.data-access header li {
+  margin-right: 30px;
+}
+.data-access header a {
+  color: #452F82;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+}
+.data-access header a.primary-link {
+  background: #703FCD;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 .user-icon {
