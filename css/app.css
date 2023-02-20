@@ -372,7 +372,10 @@ body.about-page-three .col-title {
   margin-right: 4px;
 }
 
-label {
+.input-control svg path {
+  color: red;
+}
+.input-control label {
   display: block;
   font-size: 0.875rem;
   color: #314056;
