@@ -2,8 +2,12 @@ button {
     &.md-primary {
         @include button-variant($clr-primary-700, $clr-primary-700, $clr-light-text, px-to-rem(8));
         @include font-size(px-to-rem(14));
+        @include font-color($clr-light-text);
 
         padding: px-to-rem(10) px-to-rem(16);
+        
+        text-transform: capitalize;
+        font-weight: 600;
     }
 
     &.md-secondary {
