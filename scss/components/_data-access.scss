@@ -1,0 +1,56 @@
+.data-access {
+    header {
+        // display: flex;
+        flex-wrap: nowrap;
+        padding-top: 24px;
+
+        a {
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 14px;
+            text-decoration: none;
+            line-height: 38px;
+        
+            @include font-color($clr-link-text);
+        
+            font-size: px-to-rem(14);
+        
+           
+        }
+        .logo {
+            @include flex();
+
+            .logo-text {
+                margin-left: 10px;
+                line-height: 38px;
+
+            }
+        }
+
+        .system {
+            margin-left: auto;
+        }
+
+        nav.primary {
+            ul li a {
+                @include font-color($clr-link-text)
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+
+            list-style: none;
+            // line-height: 38px;
+        }
+
+        li {
+            margin-right: 30px;
+           
+        }
+
+       
+    }
+}
+
