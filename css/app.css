@@ -15,7 +15,7 @@ body {
 }
 .container .inner-container {
   width: 1440px;
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
 }
 
 .row {
@@ -78,7 +78,10 @@ button.md-primary {
   border: 0.0625rem solid #703FCD;
   border-radius: 0.5rem;
   font-size: 0.875rem;
+  color: #ffffff;
   padding: 0.625rem 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 button.md-secondary {
   background: #fff;
@@ -383,6 +386,16 @@ label {
 
 .data-access header {
   flex-wrap: nowrap;
+  padding-top: 24px;
+}
+.data-access header a {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 38px;
+  color: #452F82;
+  font-size: 0.875rem;
 }
 .data-access header .logo {
   display: flex;
@@ -391,6 +404,12 @@ label {
   margin-left: 10px;
   line-height: 38px;
 }
+.data-access header .system {
+  margin-left: auto;
+}
+.data-access header nav.primary ul li a {
+  color: #452F82;
+}
 .data-access header ul {
   display: flex;
   flex-direction: row;
@@ -398,21 +417,6 @@ label {
 }
 .data-access header li {
   margin-right: 30px;
-}
-.data-access header a {
-  color: #452F82;
-  font-weight: 600;
-  text-transform: capitalize;
-  font-size: 14px;
-  text-decoration: none;
-}
-.data-access header a.primary-link {
-  background: #703FCD;
-  color: #ffffff;
-  letter-spacing: 1px;
-  padding: 10px 18px;
-  border-radius: 8px;
-  font-weight: bold;
 }
 
 .user-icon {
